@@ -32,8 +32,15 @@
 
       }
       .home-wrapper{
-        background: url('imagesjw/ux.jpg') no-repeat center top;
+        background-image: url("imagesjw/ux.jpg");
         background-size: cover;
+        height: 600px;
+      }
+
+      .home-wrapper p{
+        background-image: url("imagesjw/ux.jpg");
+        background-size: cover;
+        height: 600px;
       }
 
     </style>
@@ -43,10 +50,10 @@
 
 
   <!-- navbar -->
-  <div class="home-wrapper">
+
     <div class="sticky-top py-2 border-bottom" style="background-color:#ffffff">
-      <nav class="navbar navbar-expand-md navbar-light container" style="background-color:#ffffff">
-        <a class="navbar-brand mx-0 h1" href="index.html">El poder de la Experiencia</a>
+      <nav class="navbar navbar-expand-xl navbar-light container" style="background-color:#ffffff">
+        <a class="navbar-brand mx-0 h1" href="index.html">EL PODER DE LA EXPERIENCIA</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,50 +62,52 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mr-2">
-              <a class="nav-link" href="anillos.html">Conceptos</a>
+              <a class="nav-link" href="#experiencia">Diseño de Experiencia</a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" href="argollas.html">Medir la Experiencia</a>
+              <a class="nav-link" href="#medicion">Medición</a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" href="toposyaretes.html">Cuando llamo al Call</a>
+              <a class="nav-link" href="#causas">Atención telefónica</a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" href="pulseras.html">Insatisfacción telefónica</a>
+              <a class="nav-link" href="#centro">Centro de Servicio</a>
             </li>
             <li class="nav-item mr-2">
-              <a class="nav-link" href="dijes.html">Experiencia Sánitas</a>
+              <a class="nav-link" href="#salud">Servicio de Salud</a>
             </li>
 
           </ul>
         </div>
       </nav>
     </div>
-    <!-- <section>
-      <img src="imagesjw/ux.jpg" class="img-fluid my-0 py-0" alt="">
-    </section> -->
-  </div>
 
-  <!-- imagen -->
+
+  <section class="home-wrapper">
+      <!-- <img src="imagesjw/ux.jpg" class="img-fluid my-0 py-0" alt=""> -->
+
+  </section>
+ 
 
 
   <!-- Video por que pensar en el cliente -->
-  <section class="container text-center my-4 textodif">
-    <h2>¿POR QUÉ PENSAR EN EL CLIENTE?</h2>
-    <p>Mira este video sobre el poder de pensar centrado en el Cliente</p>
+  <section id="experiencia" class="container text-center my-5 textodif">
+    <h2>DISEÑO DE EXPERIENCIA</h2>
+    <p>¿Por qué pensar en el cliente? Mira este video sobre el poder de pensar centrado en el Cliente</p>
   </section>
-
+  <hr>
   <!-- storyboard Conceptos medición -->
-  <section class="container text-center my-4 textodif">
-    <h2>¿PARA QUÉ MEDIR LA EXPERIENCIA?</h2>
-    <p>En este Storyboard puedes ver algunos conceptos de la medición de la experiencia y la importancia de los
+  <section id="medicion" class="container text-center my-5 textodif">
+    <h2>MEDICIÓN</h2>
+    <p>¿Para qué medir la experiencia? En este Storyboard puedes ver algunos conceptos de la medición de la experiencia y la importancia de los
       indicadores.</p>
     <img src="imagesjw/Story1.JPG" class="img-fluid my-0 py-2" alt="">
     <img src="imagesjw/Story2.JPG" class="img-fluid my-0 py-2" alt="">
   </section>
-  <!-- storyboard -->
-  <section class="container text-center my-5 textodif">
-    <h2 class="my-1">EXPERIENCIA LLAMANDO A SERVICIO AL CLIENTE</h2>
+  <hr>
+  <!-- Análisis de Causas -->
+  <section id="causas" class="container text-center my-5 textodif">
+    <h2 class="my-1">ATENCIÓN TELEFÓNICA</h2>
     <p>En esta sección se muestra un análisis de causas de la insatisfacción del servicio de atención telefónica de los
       usuarios. Como introducción escucha esta entrevista con Claudia Valbuena, una cliente real que ha tenido
       frecuentes insatisfacciones al llamar a un Call Center.</p>
@@ -157,29 +166,23 @@
     </table>
 
   </section>
-
-  <!-- Texto -->
-  <section class="container text-center my-4 textodif">
-    <h2>EL MEJOR REGALO DE MAMÁ</h2>
-    <p>En Joyasarte nuestros diseños exclusivos pensados con todo el amor que mamá merece.</p>
-
-    <!-- productos -->
-
-  </section>
-
-  <!-- redes sociales -->
   <hr>
-
-  <section class="container text-center my-4 textodif">
-    <h6>SÍGUENOS</h6>
-    <div class="col-12 h3 text-muted">
-      <i class="fab fa-facebook mx-1"></i>
-      <i class="fab fa-twitter-square mx-1"></i>
-      <i class="fab fa-instagram mx-1"></i>
-      <i class="fab fa-pinterest-square mx-1"></i>
-    </div>
+  <!-- Centro de Servicio -->
+  <section id="centro" class="container text-center my-4 textodif">
+    <h2>CENTRO DE SERVICIO</h2>
+    <p>En algún momento todos hemos vivido esta situación. Veamos a continuación como rediseñar esta experiencia. </p>
 
   </section>
+  <hr>
+  <!-- Experiencia Sánitas -->
+  <section id="salud" class="container text-center my-4 textodif">
+    <h2>SERVICIO DE SALUD</h2>
+    <p>En algún momento todos hemos vivido esta situación. Veamos a continuación como rediseñar esta experiencia. </p>
+
+  </section>
+
+  
+
 
   <hr>
 
@@ -189,23 +192,12 @@
 
     <div class="row">
       <div class="col-12 col-md-6">
-        <p>SOBRE JOYASARTE</p>
+        <p>FELIPE ENRIQUEZ</p>
       </div>
       <div class="col-12 col-md-6">
-        <p>COMUNÍCATE CON NOSOTROS</p>
+        <p>All rights reserved.</p>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <p>TÉRMINOS DE USO</p>
-      </div>
-      <div class="col-12 col-md-6">
-        <p>VERSIÓN EN INGLÉS</p>
-      </div>
-    </div>
-
-
 
   </section>
 
